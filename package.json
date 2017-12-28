@@ -1,0 +1,26 @@
+{
+  "name": "mysql-api-app",
+  "version": "0.0.1",
+  "description": "Connect to mysql database and execute sql queries",
+  "main": "server.js",
+  "scripts": {
+    "start": "webpack --config webpack/webpack.js && node server.js",
+    "watch": "webpack --watch",
+    "postinstall": "typings i"
+  },
+  "author": "Sudip Pal(info@sudippal.com)",
+  "license": "MIT",
+  "dependencies": {
+    "awesome-typescript-loader": "^3.4.1",
+    "bootstrap": "^3.3.7",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",
+    "typescript": "^2.6.2",
+    "typings": "^2.1.1",
+    "webpack": "^3.10.0"
+  },
+  "engines": {
+    "node": "6.11.0",
+    "npm": "3.10.10"
+  }
+}
